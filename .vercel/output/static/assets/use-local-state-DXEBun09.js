@@ -1,0 +1,1 @@
+import{l as e,o as t}from"./index-d03_KP3n.js";var n=e(t(),1);function r(e,t){let[r,i]=(0,n.useState)(t),[a,o]=(0,n.useState)(!1);return(0,n.useEffect)(()=>{try{let t=localStorage.getItem(e);t&&i(JSON.parse(t))}catch{}o(!0)},[e]),(0,n.useEffect)(()=>{if(a)try{localStorage.setItem(e,JSON.stringify(r))}catch{}},[e,r,a]),[r,i,a]}export{r as t};

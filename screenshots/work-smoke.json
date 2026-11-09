@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/work",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Operations · Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 3579,
+      "bodyTextHash": "26aa7701b26793edfdb38a6612146e314bda3ba345b6afddc37ac7cb31fc590a",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Fe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/work-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Operations · Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 3473,
+      "bodyTextHash": "19bf920e81eb697e27aa652b4cc345dba56d6f4da737c3f75d84373c4d84a15e",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Me",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/work-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/work-smoke.json"
+}

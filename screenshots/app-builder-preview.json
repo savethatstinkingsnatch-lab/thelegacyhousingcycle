@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 3354,
+      "bodyTextHash": "45155046942bc5fce5cc79190875a98db8a7d988c4660f4ffeb9280ab115c49e",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Fe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 3248,
+      "bodyTextHash": "95cf7906d8beae1e734492c14a60b7ec1d51a341e841bb0fbd24629be6ffbef2",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Me",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

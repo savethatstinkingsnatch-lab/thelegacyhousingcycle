@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/model",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Underwriting · Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 4149,
+      "bodyTextHash": "0f88fbfc8139b4d149339488799f73f5e624fa0fca302bb75fe7a8cb45dc7dfa",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Fe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/model-smoke.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Underwriting · Legacy Housing Cycle",
+      "hasCanvas": false,
+      "bodyTextLen": 4043,
+      "bodyTextHash": "fb20e50d59a397c80123ad04807dba10b73cb1661f31e06bad5296989f9ef14d",
+      "bodyTextPrefix": "Skip to content EDUCATION REVOLUTION The Legacy Housing Cycle Me",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/model-smoke-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/model-smoke.json"
+}

@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c1915;
+  --color-ink-soft: #3f382f;
+  --color-muted: #5e584e;
+  --color-paper: #f3efe6;
+  --color-paper-deep: #e6dfd1;
+  --color-surface: #fbf9f4;
+  --color-line: #d9d0c1;
+  --color-pine: #1e4a38;
+  --color-pine-deep: #143428;
+  --color-moss: #2f6a4e;
+  --color-copper: #7a3f22;
+  --color-copper-line: #9a5530;
+  --color-loss: #8d342c;
+  --color-loss-bg: #f6e6e2;
+  --color-warn: #8a5a12;
+  --color-warn-bg: #f6edd9;
+  --color-gain-bg: #e4efe8;
+  --color-select: #d5e4da;
+  --font-serif: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Public Sans", "Segoe UI", sans-serif;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.55;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+    line-height: 1.15;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-pine);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-select);
+  }
+}
+
+@layer components {
+  .nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .measure {
+    max-width: 40rem;
+  }
+
+  .hair {
+    border-color: var(--color-line);
+  }
+
+  .data {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+  }
+
+  .data th {
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .data th,
+  .data td {
+    padding: 0.6rem 0.55rem;
+    border-bottom: 1px solid var(--color-line);
+    vertical-align: top;
+  }
+
+  .data td.num,
+  .data th.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

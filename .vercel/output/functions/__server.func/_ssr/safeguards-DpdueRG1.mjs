@@ -1,0 +1,152 @@
+import { S as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
+import { n as PageTitle, r as Shell } from "./shell-DV_HPsti.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/safeguards-DpdueRG1.js
+var import_jsx_runtime = require_jsx_runtime();
+var ROWS = [
+	[
+		"Life estate vs. lease",
+		"The owner retains a life estate. The organization takes only the remainder. Occupancy is not a license.",
+		"Illinois recording practice, spouse and homestead joinder, title insurance over a remainder, and whether local exemptions survive the split estate. Counsel has to answer before the first deed."
+	],
+	[
+		"Medicaid look-back",
+		"Transferring a remainder for less than fair value inside 60 months can delay long-term-care Medicaid. Illinois generally recovers from the probate estate; a life estate often passes outside probate. Recovery can reach further when a long-term-care partnership disregard was used, and a transfer-on-death instrument or revocable trust is not a magic exit.",
+		"Whether a package of taxed-paid repairs and capped services counts as fair-market-value compensation under current HFS policy. This is the central open question. If counsel cannot get to a defensible answer, the pilot does not use a deed. It uses grants and deferral."
+	],
+	[
+		"Estate recovery and heirs",
+		"Half of any modeled nominal surplus is written back to the estate or a named person. Contents are excluded. A retrieval period is contractual.",
+		"Creditor claims, a surviving spouse’s rights, and a will that contradicts the deed. The deed wins on the real estate; the family still needs that explained twice."
+	],
+	[
+		"Tax sale timing",
+		"Redemption is a full certified-funds payment to the Will County Clerk before the statutory deadline. The organization does not “buy the house at the tax sale” out from under an owner who never asked.",
+		"Public Act 104-0553 changed the path after redemption expires, including surplus return after Tyler v. Hennepin County. Local clerks implement details. Get the estimate of redemption in writing every time."
+	],
+	[
+		"Care and exploitation",
+		"Financial exploitation of an older person is a crime (720 ILCS 5/17-56). The Elder Abuse and Neglect Act (320 ILCS 20/) runs through Adult Protective Services. Consumer Fraud Act and the Home Repair and Remodeling Act still apply to a charity.",
+		"Where the line sits between housework the contract may include and personal care that requires a licensed provider. The pilot stays on the housework side and refers the rest."
+	],
+	[
+		"Incapacity",
+		"The deal is signed while the owner has capacity, or it is not signed. A power of attorney is not the way in. Later incapacity does not revoke the life estate. A guardian enforces; the guardian does not renegotiate the house away.",
+		"How the contract’s service covenant is enforced by a guardian or a court if the organization underperforms. Fee-shifting in favor of the owner should be drafted, and arbitration should not be the only forum."
+	],
+	[
+		"Organizational failure",
+		"Service reserve, subordinated lenders, and a successor charity named in the recorded covenant. Board-restricted funds. Annual audit. Charitable Trust Act registration.",
+		"Whether a court in a nonprofit bankruptcy will honor the successor designation. Do not tell an owner this is solved."
+	],
+	[
+		"Fair housing at resale",
+		"The eventual buyer is chosen without discrimination under the Fair Housing Act and the Illinois Human Rights Act. Affordability is a price rule, not a stereotype about who “deserves” the house.",
+		"How to run a quiet, legal preference for first-time or workforce buyers without creating a disparate-impact problem. A HUD-approved counseling partner should design the sale, not the construction desk."
+	],
+	[
+		"Conflicts",
+		"The construction coordinator does not pick their own company. Board members do not buy the resale. Counsel for the owner is never counsel for the organization.",
+		"A workable procurement policy at fifteen houses: three bids above a threshold, one bid allowed only for emergency water or heat, documented."
+	]
+];
+var OVERSIGHT = [
+	["Homeowner counsel", "Independent. Paid by the organization. Duty runs only to the owner. Certificate required before recording."],
+	["Ombudsman", "Not an employee of operations. Receives complaints, can inspect a house on 48 hours’ notice, reports to the board in public session."],
+	["Board", "At least one elder-law lawyer, one geriatric social worker, one person who has lived the problem or their family caregiver, one builder who is not a vendor, one finance person. The executive is not the chair."],
+	["Adult Protective Services", "Posted in the house, not only in a PDF. Calling APS cannot be treated as a breach of contract."],
+	["Audit and public report", "Annual independent audit. A short public report: houses enrolled, taxes paid, visits missed, complaints, dollars to trades, dollars of subsidy per house. Missed visits are not rounded away."],
+	["Underwriting committee", "Separate from fundraising. A house that fails the single-house test is declined in writing, with the cheaper referral attached. Fundraising pressure is not a reason to enroll."]
+];
+function SafeguardsPage() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Shell, { children: [
+		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PageTitle, {
+			kicker: "Law, ethics, and the things still open",
+			title: "If it can be done more gently, do that instead.",
+			lede: "This is a map for counsel, not counsel. Anything in the right-hand column is unresolved on purpose. A pilot that pretends those cells are settled is the predatory version of this idea."
+		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "overflow-x-auto border border-line bg-surface",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
+				className: "data",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { children: "Topic" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { children: "Design choice" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", { children: "Still unresolved" })
+				] }) }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: ROWS.map(([topic, choice, open]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+						className: "font-medium",
+						children: topic
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+						className: "text-sm",
+						children: choice
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+						className: "text-sm text-ink-soft",
+						children: open
+					})
+				] }, topic)) })]
+			})
+		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+			className: "mt-10",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+				className: "font-serif text-2xl",
+				children: "Oversight that does not report to construction"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "mt-4 divide-y divide-line border-y border-line",
+				children: OVERSIGHT.map(([title, text]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "grid gap-1 py-4 md:grid-cols-[14rem_minmax(0,1fr)]",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+						className: "font-medium",
+						children: title
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-ink-soft",
+						children: text
+					})]
+				}, title))
+			})]
+		}),
+		/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+			className: "mt-10 grid gap-4 md:grid-cols-2",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+				className: "border border-line bg-surface p-4",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-serif text-xl",
+					children: "Will not do"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "mt-3 list-disc space-y-2 pl-5 text-sm text-ink-soft",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Buy tax certificates in order to meet the owner later as the investor." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Same-day signings. Doorstep “we already paid your tax” pressure." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Take furnishings, vehicles, or accounts." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Ask an adult child who is the agent under a power of attorney to convey the house to a program the agent favors." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Enroll someone who has not sat with their own lawyer." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Hide a negative underwriting behind a story about community." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Use volunteers as the workforce plan." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Promise lifetime care that is really a nursing-home substitute." })
+					]
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+				className: "border border-line bg-surface p-4",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "font-serif text-xl",
+					children: "Will do, in writing"
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+					className: "mt-3 list-disc space-y-2 pl-5 text-sm text-ink-soft",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A dollar comparison the owner takes home before the waiting period starts." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A service schedule with dates, not adjectives." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Fee-shifting if the owner has to go to court to get what was promised." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "Mediation first, circuit court available. No forced arbitration clause as the only door." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A recorded life estate that does not mention a license, a lease, or “at our discretion.”" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "An annual letter, plain language, showing taxes paid and visits completed." }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: "A decline letter that points to freeze, deferral, repair grants, and the Community Care Program." })
+					]
+				})]
+			})]
+		})
+	] });
+}
+//#endregion
+export { SafeguardsPage as component };
