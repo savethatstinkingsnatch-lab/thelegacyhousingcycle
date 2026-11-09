@@ -3,7 +3,7 @@ import { useLocalState } from "@/lib/use-local-state";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/pilot")({
-  head: () => ({ meta: [{ title: "Will County pilot · Legacy Housing Cycle" }] }),
+  head: () => ({ meta: [{ title: "First pilot example · Legacy Housing Cycle" }] }),
   component: PilotPage,
 });
 
@@ -39,9 +39,9 @@ function PilotPage() {
   return (
     <Shell>
       <PageTitle
-        kicker="Pilot geography"
-        title="Start in Will County, where the tax bill outlives the mortgage."
-        lede="Illinois sells unpaid property taxes. The owner can still lose the house after a redemption period measured in years, and the penalties for waiting are severe. Will County is a fair first test: high ownership, high taxes, a large older population, and housing stock that actually needs roofs — not a national rollout drawn on a map."
+        kicker="First pilot location · illustrative example"
+        title="Example first location: Will County, where the tax bill outlives the mortgage."
+        lede="Illinois sells unpaid property taxes. The owner can still lose the house after a redemption period measured in years, and the penalties for waiting are severe. Will County is a fair first test: high ownership, high taxes, a large older population, and housing stock that actually needs roofs. The program is meant to become nationwide, one state at a time. Everything on this page is Illinois-specific; laws and figures vary by state, and each state needs its own local legal review."
       />
 
       <div className="overflow-x-auto border border-line bg-surface">

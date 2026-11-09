@@ -18,8 +18,8 @@ const TOC = [
   ["losses", "Where it loses money"],
   ["law", "Legal and ethical safeguards"],
   ["money", "Form, funding, partners"],
-  ["pilot", "Will County pilot"],
-  ["nation", "National expansion"],
+  ["pilot", "First pilot (Will County example)"],
+  ["nation", "Nationwide operation"],
   ["tool", "What this application is"],
   ["sources", "Sources and assumptions"],
 ];
@@ -36,7 +36,7 @@ function BlueprintPage() {
       <PageTitle
         kicker="Project blueprint"
         title="A repeating cycle, on the condition that the books are honest."
-        lede="Protect an older homeowner, restore the house, pay skilled workers, keep the promises, transfer only what was agreed, sell a sound house at an attainable price, and reinvest. This document is the argument for trying that in Will County, Illinois, and the argument for refusing to scale it if the first books fail."
+        lede="Protect an older homeowner, restore the house, pay skilled workers, keep the promises, transfer only what was agreed, sell a sound house at an attainable price, and reinvest. The goal is a nationwide operation. This document uses Will County, Illinois, as the first illustrative location, and it is also the argument for refusing to scale if the first books fail. Laws vary by state; each state needs its own local legal review."
       />
 
       <nav className="no-print mb-10 border border-line bg-surface p-4" aria-label="On this page">
@@ -84,7 +84,7 @@ function BlueprintPage() {
             larger loss.
           </p>
           <p>
-            The recommendation is to proceed to legal design and a Will County feasibility review, not to enroll
+            The recommendation is to proceed to legal design and a feasibility review in a first location (Will County, Illinois, in this example), not to enroll
             anyone, and to split the promise in two: a recoverable shelter cycle (taxes, life-safety rehab,
             maintenance, insurance) and a philanthropic care layer that is never quietly cross-subsidized by the next
             elder’s house. Less extractive public tools — homestead exemptions, the senior assessment freeze, tax
@@ -105,7 +105,7 @@ function BlueprintPage() {
         </section>
 
         <section id="problem" className="space-y-3 scroll-mt-6">
-          <h2 className="font-serif text-3xl text-ink">The problem, stated with Will County facts</h2>
+          <h2 className="font-serif text-3xl text-ink">The problem, stated with Will County facts (example location)</h2>
           <p>
             Will County’s population was estimated at 712,253 on July 1, 2025. QuickFacts reports 16.7 percent of
             residents at age 65 or older — on the order of 119,000 people if that share is applied to the estimate,
@@ -147,18 +147,31 @@ function BlueprintPage() {
             person is in the house. Support is taxes, insurance, maintenance, and only the living help that was
             written down, including a raised garden the owner can still reach. If the owner invites neighbors to pick
             and pay, that money is theirs. It is not revenue of the cycle, and it is not in the model. Renew is the
-            death process, done slowly: belongings go where the owner directed, the house is left clean, the beds stay
-            for the next household, and the house is sold at a published discount to then-market value. Reinvest is a
-            rule about cash, not a slogan. Recoverable costs and subordinated debt are paid. Subsidies are not “repaid”
+            death process, done slowly: the property passes to the organization under the agreed legal arrangement, belongings go where the owner directed, the house is left clean, the beds stay
+            for the next household, and the house is renovated and sold at a reasonable, published discount to
+            then-market value to another family. Reinvest is a rule about cash, not a slogan. Sale proceeds belong to
+            the organization and go to operations, fair pay for employees and contractors, reserves, and help for the
+            next homeowners. Recoverable costs and subordinated debt are paid. Subsidies are not “repaid”
             by squeezing the next enrollment.
+          </p>
+          <p>
+            Who it is for: primarily older homeowners who lack reliable family support and are struggling to keep up
+            with taxes and upkeep. They voluntarily exchange future ownership of the house — the remainder, while
+            they keep a life estate — for enforceable lifetime maintenance, payment of delinquent and future property
+            taxes, repairs and improvements, and agreed personal help such as groceries, transportation, and
+            housework. Lacking family support helps identify who needs help. It is never evidence that a person has
+            no legal heirs, and it is never a reason to skip a safeguard.
           </p>
           <p>
             The life estate is the load-bearing choice. A sale-leaseback can be cancelled in a dispute or a
             bankruptcy in ways a property interest cannot. Personal property is excluded. A spouse joins. An agent
             under a power of attorney cannot create the deal. There is a waiting period after independent counsel.
-            If the modeled remainder is worth more than the modeled promises, half of the nominal surplus is payable
-            to the estate or a person the owner names. In the default full-promise case that payment is zero, because
-            there is no surplus. The rule still has to be in the form, for the houses that do produce one.
+            No share of the later sale is promised to heirs or the estate: the owner’s voluntary transfer of the
+            remainder is the consideration for the organization’s investment and services. Because of that, the
+            agreement must be legally valid, independently reviewed, and fair. The owner gets independent counsel, an
+            independent appraisal with a fair-value disclosure, estate-planning advice, and voluntary, informed
+            consent. Spouses, legal heirs, co-owners, creditors, and anyone else with a legitimate property right are
+            identified and protected as the law requires.
           </p>
         </section>
 
@@ -304,7 +317,11 @@ function BlueprintPage() {
         </section>
 
         <section id="pilot" className="space-y-3 scroll-mt-6">
-          <h2 className="font-serif text-3xl text-ink">Will County pilot</h2>
+          <h2 className="font-serif text-3xl text-ink">First pilot: Will County example</h2>
+          <p>
+            Will County, Illinois, is the first illustrative location, not the limit of the program. Any first
+            location still needs the founder’s confirmation and local counsel.
+          </p>
           <p>
             Geography: older houses in Joliet, Crest Hill, Lockport, University Park, Wilmington, and unincorporated
             pockets with pre-1978 stock. Not the newest subdivisions, where this problem is rarer and the values tell
@@ -331,19 +348,23 @@ function BlueprintPage() {
         </section>
 
         <section id="nation" className="space-y-3 scroll-mt-6">
-          <h2 className="font-serif text-3xl text-ink">National expansion</h2>
+          <h2 className="font-serif text-3xl text-ink">Nationwide operation</h2>
           <p>
-            Do not nationalize a Will County deed. Tax-sale law, homestead exemptions, Medicaid recovery, and the
-            price of a roof are state and local facts. The thing that could travel, after a clean audit, is a
+            The Legacy Housing Cycle is intended to become a nationwide operation, not a one-county program. It grows
+            state by state, and only as fast as the audits allow. Do not copy a Will County deed into another state.
+            Tax-sale law, homestead exemptions, Medicaid recovery, property and estate law, licensing, and the price
+            of a roof are state and local facts, so every state needs its own local legal review, its own documents,
+            and its own figures before any agreement is offered. The thing that travels, after a clean audit, is a
             standard: life estate rather than lease, independent counsel, a public dollar comparison, a service
             reserve senior to debt, paid apprentices, an attainable-price rule, and a decline when deferral or a grant
-            will do. The next counties, if the pilot earns them, are neighbors with their own counsel — Kendall,
-            Grundy, Kankakee — not a coastal city chosen for a headline.
+            will do. In the Illinois example, the next counties would be neighbors with their own counsel — Kendall,
+            Grundy, Kankakee. New states are chosen for need and readiness, not for a headline.
           </p>
           <p>
-            A national organization, if it ever exists, should be a support desk for local charities: underwriting
-            tools, model documents, training, and a refusal to own houses three states away. Distant ownership is how
-            this idea becomes a portfolio trade. Local ownership is how a missed visit is still a scandal.
+            Nationwide does not mean distant. Each location needs local staff, local counsel, local trades, and a
+            local ombudsman, with central underwriting tools, model documents, training, and audits behind them.
+            Remote, unaccountable ownership is how this idea becomes a portfolio trade. Local accountability is how a
+            missed visit is still a scandal.
           </p>
         </section>
 
@@ -385,7 +406,8 @@ function BlueprintPage() {
             <li>Staff salaries are planning assumptions for a four-person core plus a 30 percent benefits load and $80,000 of overhead. They are not a compensation study.</li>
           </ul>
           <p className="text-sm">
-            Primary desks to reopen before a real pilot: census.gov QuickFacts for Will County, ssa.gov actuarial life
+            Every figure and statute above is for the Will County, Illinois example. Other states need their own
+            sources and local legal review. Primary desks to reopen before a real pilot there: census.gov QuickFacts for Will County, ssa.gov actuarial life
             tables, the Will County Treasurer and Clerk, ilga.gov for the statutes named above, IHDA, USDA Rural
             Development, and an elder-law lawyer admitted in Illinois.
           </p>

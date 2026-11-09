@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Feasibility blueprint and working model for a Will County pilot that keeps older homeowners housed, restores the property, pays local trades, and resells at an attainable price.",
+          "Feasibility blueprint and working model for a proposed nationwide program, illustrated with a Will County, Illinois example, that keeps older homeowners housed, restores the property, pays local trades, and resells at an attainable price.",
       },
       { name: "theme-color", content: "#1e4a38" },
     ],

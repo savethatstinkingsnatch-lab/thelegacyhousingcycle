@@ -145,7 +145,7 @@ function CapitalPage() {
       <section className="mt-12 max-w-3xl space-y-4 text-ink-soft">
         <h2 className="font-serif text-2xl text-ink">Where the money is allowed to come from</h2>
         <p>
-          Pilot form: an Illinois not-for-profit corporation seeking 501(c)(3) status, with a title-holding subsidiary
+          Pilot form, in the Illinois example: an Illinois not-for-profit corporation seeking 501(c)(3) status, with a title-holding subsidiary
           so a lawsuit about one house does not automatically reach the others. The Illinois Charitable Trust Act gives
           the Attorney General a real oversight hook that a for-profit remainder buyer does not have. No equity
           investors in the pilot. A company that acquires seniors’ remainders in order to pay shareholders is the

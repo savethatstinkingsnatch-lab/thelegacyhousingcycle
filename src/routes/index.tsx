@@ -12,8 +12,8 @@ const STEPS = [
   { n: "01", title: "Protect", text: "An older owner stays home for life, with taxes and the unsafe conditions handled." },
   { n: "02", title: "Restore", text: "Paid local trades make the house safe and the yard clean, including a raised garden if the owner wants one and can no longer work the ground." },
   { n: "03", title: "Support", text: "Promised help is capped in writing. If the owner invites neighbors to pick and pay, that money stays in the owner's hands. It is not a program receipt." },
-  { n: "04", title: "Renew", text: "After death, the family is given time. Belongings go with them. The garden stays with the house." },
-  { n: "05", title: "Reinvest", text: "A younger household or a veteran buys a clean house below a windfall price. What the sale cannot return is raised as subsidy." },
+  { n: "04", title: "Renew", text: "After death, the house passes to the organization under the agreed, independently reviewed legal arrangement. The family is given time. Belongings go with them. The garden stays with the house." },
+  { n: "05", title: "Reinvest", text: "A younger household or a veteran buys a clean house below a windfall price. Sale proceeds belong to the organization and fund operations, fair pay, reserves, and the next homeowners — no share is promised to heirs. What the sale cannot return is raised as subsidy." },
 ];
 
 function Brief() {
@@ -24,9 +24,9 @@ function Brief() {
   return (
     <Shell>
       <PageTitle
-        kicker="Will County pilot · feasibility"
+        kicker="Nationwide plan · Will County example · feasibility"
         title="Keep the elder. Restore the house. Pay the worker. House the next owner."
-        lede="The Legacy Housing Cycle is a proposed charity: voluntary help so an older homeowner can stay in a safe, clean house they already paid for, and later an attainable house — garden included — for a younger household or a veteran. This briefing says where that idea holds, and where it loses money."
+        lede="The Legacy Housing Cycle is a proposed nationwide charity, mainly for older homeowners who lack reliable family support. The owner voluntarily trades future ownership of the house, keeping the right to live there for life, for enforceable upkeep, property taxes, repairs, and agreed help with groceries, rides, and housework. After their death the house passes to the organization, which renovates it and sells it at a reasonable price to another family. This briefing says where that idea holds, and where it loses money. Its figures use Will County, Illinois, as an example; laws vary by state and each state needs its own legal review."
       />
 
       <Callout tone="subsidy" title="The default illustration is not self-funding">
@@ -108,7 +108,7 @@ function Brief() {
           <li className="border border-line bg-surface p-4">
             <h3 className="font-serif text-lg">Funders and officials</h3>
             <p className="mt-1 text-sm text-ink-soft">
-              A Will County pilot with a capital number, a loss map, and an oversight design.
+              A nationwide plan, illustrated by a Will County pilot, with a capital number, a loss map, and an oversight design.
             </p>
             <Link to="/capital" className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-pine">
               Open capital
@@ -129,7 +129,7 @@ function Brief() {
       <p className="mt-10 text-sm text-muted">
         Read the full argument in the <Link to="/blueprint" className="font-semibold text-pine">blueprint</Link>, or change
         the assumptions in <Link to="/model" className="font-semibold text-pine">underwriting</Link>. The numbers on this
-        page are the default Joliet-area case, age {DEFAULT_HOME.age}, blended Social Security life expectancy.
+        page are the default Joliet-area example case (Will County, Illinois), age {DEFAULT_HOME.age}, blended Social Security life expectancy.
       </p>
     </Shell>
   );

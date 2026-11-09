@@ -233,11 +233,12 @@ function ModelPage() {
           </div>
 
           <div className="border border-line bg-surface p-4 text-sm">
-            <h2 className="font-serif text-lg">Estate reconciliation</h2>
+            <h2 className="font-serif text-lg">Where sale proceeds go</h2>
             <p className="mt-2 text-ink-soft">
-              {base.estateReconciliation > 0
-                ? `Expected nominal surplus is ${money(base.nominalNet)}. The design pays half, ${money(base.estateReconciliation)}, to the estate or a person the owner names, so the organization does not keep a windfall. The other half stays in the reserve. The affordable-price discount, ${money(base.affordabilityGift)}, is a gift to the next family and has to be described that way — it is not a benefit to the elder.`
-                : "There is no nominal surplus, so there is nothing to reconcile back to the estate. The honest sentence is that this house needs subsidy, not that the heirs are being enriched."}
+              {base.nominalNet > 0
+                ? `Expected nominal surplus is ${money(base.nominalNet)}. Sale proceeds belong to the organization and are reinvested in operations, employee and contractor pay, reserves, and help for the next homeowners. No share is promised to heirs or the estate: the owner's voluntary transfer of the remainder is the consideration for the taxes, repairs, and services. That only holds if the owner got independent counsel and a fair-value disclosure before signing.`
+                : "There is no nominal surplus. Sale proceeds belong to the organization and are reinvested, but this house still needs subsidy to keep its promises."}{" "}
+              {`The affordable-price discount, ${money(base.affordabilityGift)}, is a gift to the next family and has to be described that way — it is not a benefit to the elder.`}
             </p>
             <h2 className="mt-4 font-serif text-lg">Tax deferral instead</h2>
             <p className="mt-2 text-ink-soft">

@@ -9,11 +9,12 @@ export const Route = createFileRoute("/cycle")({
 const PHASES = [
   {
     name: "Rescue",
-    intent: "Find people who ask for help, and exhaust the cheaper public remedies before offering a property deal.",
+    intent: "Find older homeowners who lack reliable family support and ask for help, and exhaust the cheaper public remedies before offering a property deal.",
     does: [
       "Take inquiries only from the homeowner or someone they invite. No door-knocking lists of delinquent seniors.",
-      "Screen the senior homestead exemption, the assessment freeze, the Senior Citizens Real Estate Tax Deferral Act, IHDA home repair if eligible, the Community Care Program, LIHEAP, and weatherization.",
-      "If a tax certificate is already sold, get a written redemption figure from the Will County Clerk and pay it only inside a signed agreement — certified funds, in full, before the deadline.",
+      "Lacking family support helps identify who needs help. It is never evidence that the person has no legal heirs, and it is never a reason to skip a safeguard.",
+      "Screen the state and local relief that already exists. In the Illinois example: the senior homestead exemption, the assessment freeze, the Senior Citizens Real Estate Tax Deferral Act, IHDA home repair if eligible, the Community Care Program, LIHEAP, and weatherization. Every state has different programs and needs its own local legal review.",
+      "If delinquent taxes put the home at risk, pay them only inside a signed agreement. If a tax certificate is already sold, get a written redemption figure from the county office that handles redemption (in the Will County, Illinois example, the County Clerk) — certified funds, in full, before the deadline.",
       "Order a real inspection. Lead and asbestos on pre-1978 houses are priced before anyone promises a finished scope.",
     ],
     keeps: "The owner keeps title during this phase. Nothing is recorded yet.",
@@ -23,7 +24,9 @@ const PHASES = [
     intent: "Trade a clearly priced set of promises for a remainder interest, with the owner holding a life estate — a property right, not a lease the organization can cancel.",
     does: [
       "Independent counsel, paid by the organization, whose only client is the homeowner. A certificate that advice was given, and a minimum 14-day wait after that meeting.",
-      "A side-by-side in dollars: actuarial value of taxes, repairs, and services versus the value of the remainder. If the remainder is worth more, half of any expected surplus is written back to the estate or a person the owner names.",
+      "The exchange is voluntary: the owner transfers the future ownership (the remainder) in return for enforceable lifetime maintenance, current and future property taxes, repairs and improvements, and agreed personal help such as groceries, rides, and housework. That transfer is the consideration for the organization's investment and services. No share of a later sale is promised to heirs or the estate.",
+      "Fair-value disclosure before signing: an independent appraisal of the house and a side-by-side in dollars of the expected value of taxes, repairs, and services versus the value of the remainder, so the owner and their lawyer can judge whether the trade is fair.",
+      "Informed, voluntary consent only. The agreement is legally valid under the state's law, independently reviewed, and part of the owner's own estate planning. Spouses, legal heirs, co-owners, creditors, and anyone else with a legitimate property right are identified and dealt with lawfully, never assumed away.",
       "Spouse or civil-union partner joins. A power of attorney does not create this deal. A guardian needs a court order; the pilot does not seek one.",
       "The deed is a retained life estate and a remainder. Personal property, accounts, and heirlooms are excluded in capital letters.",
       "Occupancy survives the organization's bankruptcy because the life estate is the owner's. Services do not. Services sit in a reserve with a named successor (Area Agency on Aging or another charity) if the organization fails.",
@@ -34,7 +37,7 @@ const PHASES = [
     name: "Restore",
     intent: "Bring the house and the yard to a safe, clean condition while the owner is living in it, using paid local trades.",
     does: [
-      "Licensed and insured contractors where the trade requires it. Written scopes. The Illinois Home Repair and Remodeling Act applies.",
+      "Licensed and insured contractors where the trade requires it. Written scopes. State home-repair and contractor laws apply (in Illinois, the Home Repair and Remodeling Act).",
       "Priority order: roof and water, heat, electrical hazards, plumbing, means of egress, then accessibility, then a raised garden if the owner wants one, then efficiency.",
       "The garden is for a person who may not kneel or walk far. Beds at standing or seated height, a firm path wide enough for a walker, a bench, and drip or a nearby hose. Soil is brought in after a test. Old lots can hold lead. Food is not grown in that soil.",
       "Apprentices are employees or registered apprentices earning a wage. They are not the savings strategy. Building the beds is paid carpentry, not a volunteer Saturday.",
@@ -57,16 +60,15 @@ const PHASES = [
   },
   {
     name: "Renew and reinvest",
-    intent: "After a death, give the family time. Leave the house clean. Pass the garden on. Sell below a maximized price to a household that will live there.",
+    intent: "After a death, the property passes to the organization under the agreed legal arrangement. Give the family time. Leave the house clean. Pass the garden on. Renovate and sell at a reasonable price, below a maximized price, to another family that will live there.",
     does: [
       "Death is handled as a household event, not a listing event. No lock change during the retrieval period named in the agreement. Belongings, papers, and plants the family wants are packed with them, not dumped to make a photo.",
       "The raised beds stay. They are fixtures, with a one-page record of the soil test, what was planted, and how the drip works. The next owners are shown the garden before closing. They inherit the beds, not a duty to keep selling to the neighbors.",
       "Final inspections, remaining life-safety items, a clean yard, then a sale. Default illustration prices the house 8 percent under the then-appraised market and subtracts ordinary selling costs.",
       "The price is meant for a younger household or a veteran who will occupy the house, on rules a fair-housing lawyer writes. A separate veteran program is not described here and is not assumed to exist in this pilot.",
-      "Recoveries pay reserves, subordinated program-related debt, and the next enrollment. They do not pay dividends.",
-      "If the sale beats the underwriting, the estate reconciliation in the original agreement is paid before the cycle keeps the rest.",
+      "Sale proceeds belong to the organization. They are reinvested in operations, fair pay for employees and contractors, reserves, subordinated program-related debt, and help for the next homeowners. They do not pay dividends, and no share is automatically paid to heirs or the estate.",
     ],
-    keeps: "Heirs keep everything the agreement said they keep, including time. The next household inherits a clean, known house and a working garden, not a bargain full of surprises.",
+    keeps: "Heirs, spouses, and others with legitimate rights keep everything the law and the agreement give them — belongings, papers, and time. The house itself was transferred by the owner's voluntary, independently reviewed agreement. The next household inherits a clean, known house and a working garden, not a bargain full of surprises.",
   },
 ];
 

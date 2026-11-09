@@ -10,7 +10,7 @@ const ROWS = [
   [
     "Life estate vs. lease",
     "The owner retains a life estate. The organization takes only the remainder. Occupancy is not a license.",
-    "Illinois recording practice, spouse and homestead joinder, title insurance over a remainder, and whether local exemptions survive the split estate. Counsel has to answer before the first deed.",
+    "State recording practice (Illinois in the example), spouse and homestead joinder, title insurance over a remainder, and whether local exemptions survive the split estate. Counsel has to answer before the first deed.",
   ],
   [
     "Medicaid look-back",
@@ -19,13 +19,13 @@ const ROWS = [
   ],
   [
     "Estate recovery and heirs",
-    "Half of any modeled nominal surplus is written back to the estate or a named person. Contents are excluded. A retrieval period is contractual.",
-    "Creditor claims, a surviving spouse’s rights, and a will that contradicts the deed. The deed wins on the real estate; the family still needs that explained twice.",
+    "No share of the sale is promised to heirs or the estate; the owner's voluntary transfer of the remainder is the consideration for the organization's investment and services. That is why the owner gets independent counsel, an independent appraisal and fair-value disclosure, estate-planning advice, and a waiting period before signing. Lacking family support helps identify need; it is never evidence that there are no legal heirs. Contents are excluded. A retrieval period is contractual.",
+    "Legal heirs, a surviving spouse’s rights, co-owners, creditor claims, and a will that contradicts the deed must be identified and handled lawfully before and after signing. The deed generally controls the real estate under state law; the family still needs that explained twice. Laws differ by state, so each state needs its own legal review.",
   ],
   [
     "Tax sale timing",
-    "Redemption is a full certified-funds payment to the Will County Clerk before the statutory deadline. The organization does not “buy the house at the tax sale” out from under an owner who never asked.",
-    "Public Act 104-0553 changed the path after redemption expires, including surplus return after Tyler v. Hennepin County. Local clerks implement details. Get the estimate of redemption in writing every time.",
+    "Redemption is a full certified-funds payment to the county office that handles it (the County Clerk in the Will County, Illinois example) before the statutory deadline. The organization does not “buy the house at the tax sale” out from under an owner who never asked.",
+    "Tax-sale rules differ by state. In Illinois, Public Act 104-0553 changed the path after redemption expires, including surplus return after Tyler v. Hennepin County. Local clerks implement details. Get the estimate of redemption in writing every time.",
   ],
   [
     "Care and exploitation",
@@ -74,7 +74,7 @@ function SafeguardsPage() {
       <PageTitle
         kicker="Law, ethics, and the things still open"
         title="If it can be done more gently, do that instead."
-        lede="This is a map for counsel, not counsel. Anything in the right-hand column is unresolved on purpose. A pilot that pretends those cells are settled is the predatory version of this idea."
+        lede="This is a map for counsel, not counsel. Anything in the right-hand column is unresolved on purpose. A pilot that pretends those cells are settled is the predatory version of this idea. Statutes named here are the Illinois example; laws vary by state, and every state needs its own local legal review before any agreement is offered."
       />
 
       <div className="overflow-x-auto border border-line bg-surface">
@@ -119,6 +119,7 @@ function SafeguardsPage() {
             <li>Take furnishings, vehicles, or accounts.</li>
             <li>Ask an adult child who is the agent under a power of attorney to convey the house to a program the agent favors.</li>
             <li>Enroll someone who has not sat with their own lawyer.</li>
+            <li>Treat a lack of family support as proof there are no legal heirs, or as a reason to skip any safeguard.</li>
             <li>Hide a negative underwriting behind a story about community.</li>
             <li>Use volunteers as the workforce plan.</li>
             <li>Promise lifetime care that is really a nursing-home substitute.</li>
@@ -127,7 +128,8 @@ function SafeguardsPage() {
         <article className="border border-line bg-surface p-4">
           <h2 className="font-serif text-xl">Will do, in writing</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-sm text-ink-soft">
-            <li>A dollar comparison the owner takes home before the waiting period starts.</li>
+            <li>A dollar comparison and an independent fair-value appraisal the owner takes home before the waiting period starts.</li>
+            <li>A plain statement that sale proceeds go to the organization for reinvestment, with no share promised to heirs, reviewed with the owner's own lawyer as part of their estate planning.</li>
             <li>A service schedule with dates, not adjectives.</li>
             <li>Fee-shifting if the owner has to go to court to get what was promised.</li>
             <li>Mediation first, circuit court available. No forced arbitration clause as the only door.</li>

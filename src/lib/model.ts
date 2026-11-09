@@ -80,7 +80,7 @@ export type RepairLine = {
   high: number;
 };
 
-/** Planning ranges for a small pre-1978 Will County house. Not contractor bids. */
+/** Planning ranges for a small pre-1978 house in the Will County, Illinois example. Not contractor bids. */
 export const REPAIR_LINES: RepairLine[] = [
   { id: "roof", label: "Roof", note: "Tear-off and architectural shingles, typical bungalow", low: 8_000, mid: 16_000, high: 28_000 },
   { id: "electric", label: "Electrical", note: "Panel, hazards, partial rewire", low: 4_000, mid: 12_000, high: 22_000 },
@@ -180,8 +180,6 @@ export type Scenario = {
   cashTrough: number;
   /** Dollars of market value given up so the next family pays less. */
   affordabilityGift: number;
-  /** Half of a nominal surplus, 0 when the house loses money. */
-  estateReconciliation: number;
   yearly: YearRow[];
 };
 
@@ -252,6 +250,8 @@ function projectYears(input: HomeInputs, years: number, id: Scenario["id"], labe
   trough = Math.min(trough, running);
   npv += netProceeds / pow(1 + input.discountRate, years);
 
+  // Sale proceeds belong to the organization and are reinvested (operations, pay, reserves, next homeowners).
+  // No share is paid to heirs or the estate, so nothing is deducted here.
   const nominalNet = netProceeds - totalCost;
   return {
     id,
@@ -267,7 +267,6 @@ function projectYears(input: HomeInputs, years: number, id: Scenario["id"], labe
     npv,
     cashTrough: trough,
     affordabilityGift: marketAtSale - salePrice,
-    estateReconciliation: nominalNet > 0 ? nominalNet * 0.5 : 0,
     yearly,
   };
 }
